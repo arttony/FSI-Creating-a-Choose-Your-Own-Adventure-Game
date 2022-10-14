@@ -6,7 +6,7 @@ if(firstAnswer === 'left') {
         let thirdAnswer = window.prompt('You follow the cat to a colony of cats, nestled in a fort of warm blankets and subsisting off of inexplicably warm soup. They are content with you staying, but you wonder if you should alert the world to this magical safe haven.')
         if(thirdAnswer === 'Stay') {
            console.log('You live happily amongst the cats for the rest of your days.') 
-        } else if(thirdAnswer === 'Spread the word' ){
+        } else if(thirdAnswer === 'Spread the word' ) {
             console.log('After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless.')
         }
     } else if(secondAnswer === 'Continue') {
